@@ -1,0 +1,407 @@
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+
+  --ifm-code-font-size: 95%;
+
+  /* Robotics Theme Variables */
+  --robotics-primary: #2563eb; /* A strong, modern blue */
+  --robotics-secondary: #0ea5e9; /* A lighter, energetic blue */
+  --robotics-accent: #f59e0b; /* A warm, attention-grabbing orange */
+  --robotics-success: #22c55e; /* A vibrant green for success states */
+  --robotics-warning: #f97316; /* A clear orange for warnings */
+  --robotics-danger: #ef4444; /* A standard red for errors */
+
+  --robotics-text-color: #e2e8f0; /* Light grey for text on dark backgrounds */
+  --robotics-text-color-secondary: #94a3b8; /* A dimmer grey for secondary text */
+  --robotics-background-dark: #0f172a; /* A very dark blue, almost black */
+  --robotics-background-light: #1e293b; /* A slightly lighter dark blue */
+  --robotics-border-color: #334155; /* A subtle border color */
+
+  /* Typography */
+  --ifm-font-family-base: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --ifm-font-family-monospace: 'Fira Code', 'Menlo', 'Consolas', 'Monaco', monospace;
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-h2-font-size: 2rem;
+  --ifm-h3-font-size: 1.75rem;
+  --ifm-h4-font-size: 1.5rem;
+  --ifm-h5-font-size: 1.25rem;
+  --ifm-h6-font-size: 1rem;
+
+  /* Spacing */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-spacing-vertical: 1.5rem;
+
+  /* Shadows */
+  --ifm-global-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --ifm-global-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --ifm-global-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  /* Border Radius */
+  --ifm-border-radius: 0.5rem;
+
+  /* Circuit Board Background */
+  --circuit-grid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23334155' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-G9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4H0v-1h5v-9H0v-1h5v-9H0v-1h5v-9H0v-1h5v-9H0v-1h5v-9H0v-1h5v-9H0v-1h5v-9H0v-1h5V0h1v5zm10 0V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5zm-1 0h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5zm10 0h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5zm10 0h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5zm10 0h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5zm10 0h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5zm10 0h9V0h1v5h9V0h1v5h9V0h1v5zm10 0h9V0h1v5h9V0h1v5zm10 0h9V0h1v5zm-91 9v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm-90 10h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm-90 10v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm-90 10h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm-90 10v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm-90 10h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm-90 10v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-G9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm10 0v9h-9v-9h9zm-90 10h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/*
+ * Modern CSS Reset
+ *
+ * A simple, modern CSS reset to normalize browser styles.
+ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--robotics-background-dark);
+  color: var(--robotics-text-color);
+  background-image: var(--circuit-grid);
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+/*
+ * The following media query is a fix for a bug in Docusaurus v3.
+ * It prevents the CodeBlock component from overflowing on smaller screens.
+ *
+ * TODO(docusaurus): Remove when upstream bug is fixed.
+ * See: https://github.com/facebook/docusaurus/issues/9957
+ */
+@media screen and (max-width: 996px) {
+  [class*='codeBlockContainer_'] {
+    max-width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Component: Navbar
+   ========================================================================== */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(135deg, var(--robotics-background-dark), var(--robotics-background-light));
+  border-bottom: 1px solid var(--robotics-border-color);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+/* ==========================================================================
+   Component: Sidebar
+   ========================================================================== */
+
+.menu {
+  background-color: var(--robotics-background-light);
+  border-right: 1px solid var(--robotics-border-color);
+}
+
+.menu__link {
+  color: var(--robotics-text-color-secondary);
+  transition: all 0.2s ease-in-out;
+}
+
+.menu__link--active,
+.menu__link:hover {
+  color: var(--robotics-text-color);
+  background-color: var(--robotics-background-dark);
+}
+
+.menu__list-item-collapsible .menu__caret::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 18l6-6-6-6' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.menu__list-item--collapsed .menu__caret::before {
+  transform: rotate(0deg);
+}
+
+/* ==========================================================================
+   Component: DocPage
+   ========================================================================== */
+
+.main-wrapper {
+  background-color: var(--robotics-background-dark);
+}
+
+.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module {
+  background-color: transparent;
+}
+
+main[class*='docMainContainer'] {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Content-styles-module h1,
+.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Content-styles-module h2,
+.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Content-styles-module h3,
+.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Content-styles-module h4,
+.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Content-styles-module h5,
+.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Content-styles-module h6 {
+  color: var(--robotics-primary-light);
+}
+
+.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Content-styles-module p {
+  color: var(--robotics-text-color-secondary);
+  line-height: 1.8;
+}
+
+/* ==========================================================================
+   Component: Footer
+   ========================================================================== */
+
+.footer {
+  background-color: var(--robotics-background-dark);
+  border-top: 1px solid var(--robotics-border-color);
+  color: var(--robotics-text-color-secondary);
+}
+
+.footer__title {
+  color: var(--robotics-text-color);
+}
+
+.footer__link-item {
+  color: var(--robotics-text-color-secondary);
+  transition: color 0.2s ease-in-out;
+}
+
+.footer__link-item:hover {
+  color: var(--robotics-primary-light);
+}
+
+/* ==========================================================================
+   Component: Code Blocks
+   ========================================================================== */
+
+div[class*='codeBlockContainer'] {
+  background: linear-gradient(135deg, var(--robotics-background-light), var(--robotics-background-dark));
+  border: 1px solid var(--robotics-border-color);
+  border-left: 4px solid var(--robotics-accent);
+  border-radius: var(--ifm-border-radius);
+  box-shadow: var(--ifm-global-shadow-lg);
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6a9955;
+}
+
+.token.punctuation {
+  color: #d4d4d4;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #b5cea8;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token-inserted {
+  color: #ce9178;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #d4d4d4;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #569cd6;
+}
+
+.token.function,
+.token.class-name {
+  color: #dcdcaa;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #9cdcfe;
+}
+
+/* ==========================================================================
+   Component: Tables
+   ========================================================================== */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--ifm-spacing-vertical) 0;
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+thead {
+  background-color: var(--robotics-background-light);
+  color: var(--robotics-text-color);
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--robotics-border-color);
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--robotics-background-light);
+}
+
+tbody tr:hover {
+  background-color: var(--robotics-background-dark);
+}
+
+/* ==========================================================================
+   Component: Alerts
+   ========================================================================== */
+
+.alert {
+  border-radius: var(--ifm-border-radius);
+  padding: 1rem;
+  margin-bottom: var(--ifm-spacing-vertical);
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 4px;
+}
+
+.alert--info {
+  background-color: rgba(37, 99, 235, 0.1);
+  border-color: var(--robotics-primary);
+  color: var(--robotics-primary-light);
+}
+
+.alert--warning {
+  background-color: rgba(249, 115, 22, 0.1);
+  border-color: var(--robotics-warning);
+  color: var(--robotics-warning);
+}
+
+.alert--danger {
+  background-color: rgba(239, 68, 68, 0.1);
+  border-color: var(--robotics-danger);
+  color: var(--robotics-danger);
+}
+
+.alert--success {
+  background-color: rgba(34, 197, 94, 0.1);
+  border-color: var(--robotics-success);
+  color: var(--robotics-success);
+}
+
+/* ==========================================================================
+   Component: Cards
+   ========================================================================== */
+
+.card {
+  background-color: var(--robotics-background-light);
+  border: 1px solid var(--robotics-border-color);
+  border-radius: var(--ifm-border-radius);
+  box-shadow: var(--ifm-global-shadow-md);
+  padding: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--ifm-global-shadow-lg);
+  border-color: var(--robotics-primary);
+}
+
+.card__header h3 {
+  color: var(--robotics-primary-light);
+  margin-bottom: 0.5rem;
+}
+
+.card__body {
+  color: var(--robotics-text-color-secondary);
+}
+
+/* ==========================================================================
+   Interactive Feature: Dark/Light Mode Toggle
+   ========================================================================== */
+
+html[data-theme='dark'] {
+  --ifm-background-color: var(--robotics-background-dark);
+  --ifm-text-color: var(--robotics-text-color);
+  --ifm-color-emphasis-100: var(--robotics-background-light); /* Lighter dark background for emphasis */
+  --ifm-navbar-background-color: linear-gradient(135deg, var(--robotics-background-dark), var(--robotics-background-light));
+  --ifm-code-background: var(--robotics-background-light);
+
+  /* Override default Docusaurus colors with robotics theme */
+  --ifm-color-primary: var(--robotics-primary);
+  --ifm-color-secondary: var(--robotics-secondary);
+  --ifm-color-success: var(--robotics-success);
+  --ifm-color-warning: var(--robotics-warning);
+  --ifm-color-danger: var(--robotics-danger);
+  --ifm-heading-color: var(--robotics-text-color);
+}
+
+html[data-theme='light'] {
+  --ifm-background-color: #f8fafc; /* Light background for light mode */
+  --ifm-text-color: #1e293b; /* Dark text for light mode */
+  --ifm-color-emphasis-100: #e2e8f0; /* Lighter background for emphasis */
+  --ifm-navbar-background-color: linear-gradient(135deg, #f1f5f9, #cbd5e1);
+  --ifm-code-background: #e2e8f0;
+
+  /* Override default Docusaurus colors with robotics theme */
+  --ifm-color-primary: var(--robotics-primary);
+  --ifm-color-secondary: var(--robotics-secondary);
+  --ifm-color-success: var(--robotics-success);
+  --ifm-color-warning: var(--robotics-warning);
+  --ifm-color-danger: var(--robotics-danger);
+  --ifm-heading-color: #1e293b;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar,
+.menu,
+.footer,
+div[class*='codeBlockContainer'],
+table,
+.alert,
+.card {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
