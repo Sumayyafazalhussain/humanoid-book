@@ -3,7 +3,7 @@
 description: "Task list template for feature implementation"
 ---
 
-**Constitution Reminder**: All tasks must adhere to the project constitution, focusing on `/book_source`, using correct content formats, and respecting Docusaurus configurations.
+**Constitution Reminder**: All tasks must adhere to the project constitution, focusing on the `/backend` directory, using Python 3.11+, FastAPI, Qdrant, OpenAI Agents SDK with Gemini API, and `uv init` for environment management.
 
 # Tasks: [FEATURE NAME]
 

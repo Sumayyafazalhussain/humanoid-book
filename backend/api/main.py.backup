@@ -1,0 +1,32 @@
+from fastapi import FastAPI
+from pydantic import BaseModel
+from ..services.ingestion_service import ingestion_service
+from ..services.rag_service import rag_service
+
+app = FastAPI()
+
+class QueryRequest(BaseModel):
+    query: str
+
+class SelectedTextQueryRequest(BaseModel):
+    query: str
+    selected_text: str
+
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
+
+@app.post("/ingest")
+async def ingest_content():
+    await ingestion_service.ingest_book_content()
+    return {"message": "Ingestion initiated successfully."}
+
+@app.post("/query")
+async def query_rag_system(request: QueryRequest):
+    response = await rag_service.query_rag(request.query)
+    return response
+
+@app.post("/query_selected_text")
+async def query_with_selected_text(request: SelectedTextQueryRequest):
+    response = await rag_service.query_selected_text(request.query, request.selected_text)
+    return response

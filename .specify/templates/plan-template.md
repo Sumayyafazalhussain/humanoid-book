@@ -31,9 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-*   [ ] **Project Focus**: Does this feature align with the exclusive focus on `/book_source`?
-*   [ ] **Content Standards**: Does this feature produce content in `book_source/docs/` using `.md` or `.mdx`?
-*   [ ] **Docusaurus Config**: Does this feature respect the Docusaurus sidebar and preset configuration?
+- [ ] **Embedding Model**: Does the plan specify using "sentence-transformers/all-MiniLM-L6-v2" for embeddings?
+- [ ] **Vector Storage**: Does the plan utilize Qdrant for vector storage?
+- [ ] **API Gateway**: Does the plan include FastAPI for exposing REST endpoints?
+- [ ] **Agent Integration**: Does the plan incorporate OpenAI Agents SDK with Gemini API for answer generation?
+- [ ] **Environment Management**: Does the plan ensure the local Python environment is initialized with `uv init`?
+- [ ] **Folder Structure**: Does the plan adhere to the defined `/backend` folder structure?
+- [ ] **Out-of-Scope Adherence**: Does the plan strictly avoid frontend UI implementation and non-book-related queries?
 
 ## Project Structure
 
