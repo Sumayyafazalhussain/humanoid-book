@@ -36,7 +36,7 @@ class GeminiService:
         """Get embedding using Gemini's embedding model"""
         try:
             # For Gemini 2.5 Flash, use text-embedding-004 or 005
-            response = await genai.embed_content_async(
+            response = await self.model.embed_content_async(
                 model=self.embedding_model,
                 content=text,
                 task_type="retrieval_document"

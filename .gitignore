@@ -1,0 +1,16 @@
+# Environment variables
+.env
+.DS_Store
+# Python
+__pycache__/
+*.pyc
+*.log
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Docusaurus build output
+book_source/build/
+book_source/node_modules/
